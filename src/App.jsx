@@ -23,6 +23,8 @@ export default function Home() {
 
 
     useEffect(() => {
+        // handle running this only once before initialization of Adtrace!
+        // mockDB("8d9395ba-fa55-4748-b273-e3e3c9313e1d")
         _initAdtraceChannel();
     }, [])
 
